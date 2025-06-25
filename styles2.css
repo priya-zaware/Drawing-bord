@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.draw-board{
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.child{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
